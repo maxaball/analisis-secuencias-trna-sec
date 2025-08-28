@@ -94,7 +94,7 @@ text
 
 ```bash
 # Instalar dependencias en sistemas basados en Debian/Ubuntu
-sudo apt install seqkit mafft vienna-rna weblogo
+sudo apt install seqkit mafft vienna-rna
 
 # MC-Annotate requiere instalación manual:
 # Descargar desde: http://www-lbit.iro.umontreal.ca/mc-annotate/
@@ -107,8 +107,7 @@ pip install weblogo metalogo pandas numpy scikit-learn matplotlib scipy
 
 ## 📋 Uso
 
--Verificar que la carpeta 1-Data exista con los archivos FASTA correspondientes.
--Ejecutar los scripts en orden:
+-Verificar que la carpeta 1-Data exista con los archivos FASTA correspondientes y ejecutar los scripts en orden:
 
 ```bash
 # Dar permisos de ejecución
